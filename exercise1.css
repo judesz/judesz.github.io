@@ -2,11 +2,21 @@ h1 {
 	color:blue;
 	font-family: 'Helvetica';
 }
-button.navbar-toggle {color: green;
-						background: rgba(227, 227, 22 ,5)}
-
-.cuteduckpic img{
-	height: 500px
-	width:1330px;
+button {
+	color: green;
+	background: rgba(227, 227, 22 ,1u)
 }
-body {background: rgba(75, 174, 240, 1);}
+
+body
+
+ {
+	background-color: rgba(75, 174, 240, 1);
+}
+
+.cuteduckpic {
+	width:100%;
+	height:700px;
+	background-image:url("images/yellowduck.jpg");
+	background-size:cover;
+
+}
