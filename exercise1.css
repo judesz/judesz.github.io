@@ -10,11 +10,14 @@ button {
 body
 
  {
+ 	margin=auto;
+ 	padding=0;
 	background-color: rgba(75, 174, 240, 1);
 }
 
 .cuteduckpic {
-	width:100%;
+	margin=0;
+	padding=0;
 	height:700px;
 	background-image:url("images/yellowduck.jpg");
 	background-size:cover;
