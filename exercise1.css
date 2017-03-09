@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
 h1 {
 	color:blue;
 	font-family: 'Helvetica';
@@ -10,7 +13,7 @@ button {
 body
 
  {
- 	margin=auto;
+ 	margin=0;
  	padding=0;
 	background-color: rgba(75, 174, 240, 1);
 }
@@ -19,7 +22,26 @@ body
 	margin=0;
 	padding=0;
 	height:700px;
-	background-image:url("images/yellowduck.jpg");
+	background-image:url("images/yellowduck.jpg"); 
 	background-size:cover;
 
+}
+
+.jumbotron {
+	min-height: 600px;
+	background-image: url('images/yellowduck.jpg');
+	background-size: cover;
+	background-attachment: absolute;
+}
+
+.jumbotron p {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color:white;
+	font-size:200px;
+	opacity: 0.5;
+}
+
+.jumbotron object {
+	text-align:center;
 }
